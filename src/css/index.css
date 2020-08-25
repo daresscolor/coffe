@@ -1,0 +1,375 @@
+@charset "utf-8";
+.about,.bg-box,.product,.team,.contact{
+    width:1200px;
+    margin:0 auto;
+}
+.banner{
+    width:100%;
+    height:598px;
+    position:relative;
+    overflow: hidden;
+}
+.box{
+    width: 300%;
+    height:598px;
+    font-size: 0;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.box img{
+    /* position:absolute; */
+    width: 33.33%;
+    height:598px;
+    display:inline-block;
+    /* display:none; */
+}
+/* .box img.active{
+    display:block;
+} */
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    border: 3px solid pink;
+    color: pink;
+    position: absolute;
+    z-index: 20;
+    outline: none;
+    cursor: pointer;
+    background:transparent;
+}
+
+.b1 {
+    left: 20px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.b2 {
+    right: 20px;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.banner ul {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    margin-left: -27px;
+    text-align: center;
+}
+
+.banner ul li {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.banner ul li.active {
+    background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    padding:48px 0 96px 0 ;
+    border-top:2px solid #fdf1bf; 
+}
+.h-tit{
+    font-size:24px;
+    height:24px;
+    line-height:24px;
+    color:#333333;
+    text-align:center;
+}
+.p-text{
+    font-size:14px;
+    height:14px;
+    color:#333333;
+    line-height:14px;
+    text-align:center;
+    margin-top:9px;
+    background:url(../images/h-bg_03.png) no-repeat 470px 7px ,url(../images/h-bg_05.png) no-repeat 640px 7px;
+}
+.icon-img{
+    height:26px;
+    margin:9px 0  54px 0;
+}
+.icon-img img{
+    margin-left:587px;
+}
+.about-con{
+    width:1048px;
+    height:517px;
+    padding-top:16px;
+    padding:0 92px 0 65px;
+}
+.about-con dt{
+    width:390px;
+    height:515px;
+    border:1px solid #333333;
+    margin-right:50px;
+    position:relative;
+}
+.about-con dt .fixed_box{
+    position:absolute;
+    top:-17px;
+    left:15px;
+}
+.about-con dd{
+    width:606px;
+}
+.about-con dd h2{
+    font-size:24px;
+    height:24px;
+    line-height:24px;
+    margin-bottom:54px;
+    color:#333333;
+}
+.line_box{
+    width:36px;
+    height:1px;
+    background:#333333;
+}
+.p_box{
+    padding-top:22px;;
+}
+.about-con dd p{
+    line-height:30px;
+    font-size:14px;
+    color:#333333;
+    margin-top:15px;
+    text-indent:2em;
+}
+.bg-box{
+    height:120px;
+    position:relative;
+}
+.bg-box img{
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+}
+.bg-box p{
+    font-size:24px;
+    height:120px;
+    line-height:120px;
+    text-align: center;
+    color:#fefefe;
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+}
+.product{
+    padding:40px 0 72px 0 ;
+    overflow: hidden;
+}
+.product-con{
+    padding:0 43px 72px;
+}
+.con_box{
+    width:1300px;
+}
+.product-con dl{
+    width:327px;
+    height:429px;
+    margin-right:66px;
+}
+.product-con dl dt{
+    width:327px;
+    height:298px;
+    position:relative;
+}
+.product-con dl dt .opa_box{
+    width:327px;
+    height:298px;
+    position:absolute;
+    top:0;
+    background:rgba(0, 0,0, .5);
+    opacity:0;
+    transition:1s;
+}
+.product-con dl a{
+    transition:1s;
+}
+.product-con dl:hover dt .opa_box{
+    opacity:1;
+}
+.product-con dl:hover dd h3 a{
+    color:#333333;
+}
+.product-con dl:hover dd p a{
+    color:#333333;
+}
+.product-con dl dt .opa_box img{
+    margin:109px 0 0 132px;
+}
+/* .product-con dl:nth-child(2){
+    margin:0 66px;
+} */
+.product-con dl dd{
+    position:relative;
+}
+.product-con dl dd h3{
+   font-size:24px;
+   height:59px;
+   line-height:59px;
+   color:#666666;
+    text-align:center;
+}
+.product-con dl dd h3 a{
+    display: block;
+    color: #666666;
+}
+.product-con dl dd p{
+   font-size:14px;
+   line-height:24px;
+   color:#999999;
+    text-align:center;
+}
+.product-con dl dd p a{
+    display: block;
+    color: #bfbfbf;
+}
+.product-con dl dd em{
+    display: block;
+    width:32px;
+    height:1px;
+    background:#333333;
+    position:absolute;
+    top:48px;
+    left:147px;
+}
+.team-box{
+    padding:0 57px;
+    overflow: hidden;
+}
+.team-con{
+    width:245px;
+    margin-right:36px;
+    position: relative;
+}   
+.team-con dt{
+    height:405px;
+    overflow: hidden;
+}
+.team-con dt img{
+    transition:1s;
+}
+.team-con dt:hover img{
+    transform:scale(1.2);
+}
+.team-con dd{
+    width:243px;
+    height:44px;
+    padding:29px 0;
+    border:1px solid #999;
+    border-top:0;
+}
+.position—box{
+    width:245px;
+    height:85px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    background:green;
+    padding:10px 0 8px 0;
+    background:#3c3c3c;
+    opacity: 0;
+    transition:.5s;  
+}
+.team-con dd:hover .position—box{
+    opacity: 1;
+}
+.team-con dd .position—box h5{
+    font-size:20px;
+    height:20px;
+    line-height:20px;
+    color:#ffffff;
+    text-align:center;
+    margin-bottom:23px; 
+}
+.team-con dd .position—box p{
+    font-size:14px;
+    height:14px;
+    line-height:24px;
+    color:#ffffff;
+    text-align:center;
+}
+.team-con dd h4{
+    font-size:20px;
+    height:20px;
+    line-height:20px;
+    color:#333333;
+    text-align:center;
+    margin-bottom:13px;
+}
+.team-con dd p{
+    font-size:16px;
+    height:16px;
+    line-height:16px;
+    color:#333333;
+    text-align:center;
+    text-transform:capitalize;
+}
+.contact{
+    padding:30px 0 40px 0;
+}
+.contact-con{
+    height:365px;
+    width:1134px;
+    padding-left:66px;
+}
+.contact_text{
+    margin-left:59px;
+}
+.contact_text dl dt{
+    margin-right:15px;
+}
+.contact_text dl dd{
+    margin-bottom:19px;
+}
+.contact_text dl dd h3{
+    line-height:20px;
+    font-size:20px;
+    margin:2px 0 5px 0;
+}
+.contact_text dl dd h3 a{
+    color:#333333;
+}
+.contact_text dl dd p a{
+    color:#a7a7a7;
+}
+.contact_text dl dd p{
+    line-height:24px;
+    font-size:14px;
+}
+.contact_text dl dd p:nth-child(3) a{
+    color:#333333;
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        overflow-x:hidden;
+    }
+}
